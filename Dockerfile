@@ -22,7 +22,7 @@ END\n\
 )\n\
 expect -c "${EXPECT//\n\
 /;}"\n\
-cp -a $DIR1/.encfs6.xml /encfs/encfs6.xml\n\
+cp -a $DIR1/.encfs6.xml /encfs/encfs.xml\n\
 echo "$ENCFS_PASS" > /encfs/encfspass\n\
 chown -R 1000:1000 /encfs'\
 >> /usr/bin/generate-encfs && \
